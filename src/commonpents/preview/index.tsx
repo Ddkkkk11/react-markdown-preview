@@ -5,9 +5,6 @@ export default function Preview(props: any) {
 
   return (
     <section className='preview-area'>
-        {
-            text
-        }
       <ReactMarkdown children={text}/>
     </section>
   )
